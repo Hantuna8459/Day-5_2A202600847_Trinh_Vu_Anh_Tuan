@@ -42,37 +42,37 @@ Finding này sẽ đổi SPEC bằng cách thêm intent rule cho các câu mơ h
 ## 5. Sketch as-is / to-be
 
 ```text
-AS-IS                                TO-BE
+            AS-IS                                      TO-BE
 
-User:                                User:
+User:                                   User:
 
-“Tôi muốn bay nhưng không có tiền”   “Tôi muốn bay nhưng không có tiền”
+“Tôi muốn bay nhưng không có tiền”      “Tôi muốn bay nhưng không có tiền”
 
-↓                                     ↓
+↓                                                       ↓
 
-NEO hiểu là ngoài phạm vi             NEO hiểu: muốn bay + thiếu tiền
+NEO hiểu là ngoài phạm vi               NEO hiểu: muốn bay + thiếu tiền
 
-↓                                     ↓
+↓                                                       ↓
 
-NEO từ chối hỗ trợ                    NEO hỏi lại / đưa lựa chọn
+NEO từ chối hỗ trợ                      NEO hỏi lại / đưa lựa chọn
 
-↓                                   ↓
+↓                                                       ↓
 
-[ĐIỂM GÃY]                            - Tìm vé giá thấp
+[ĐIỂM GÃY]                              - Tìm vé giá thấp
 
-User không được dẫn tới              - Xem khuyến mãi
+User không được dẫn tới                 - Xem khuyến mãi
 
-vé rẻ / khuyến mãi / thanh toán       - Dùng dặm Lotusmiles
+vé rẻ / khuyến mãi / thanh toán         - Dùng dặm Lotusmiles
 
-↓                             - Xem phương thức thanh toán
+    ↓                                   - Xem phương thức thanh toán
 
-User phải tự nghĩ lại cách hỏi                 ↓
+User phải tự nghĩ lại cách hỏi                          ↓
 
-User chọn option
+                                        User chọn option
 
-↓
+                                                        ↓
 
-NEO dẫn tới flow phù hợp
+                                        NEO dẫn tới flow phù hợp
 
 ```
 
